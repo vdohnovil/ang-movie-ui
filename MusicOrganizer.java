@@ -31,3 +31,18 @@ public class MusicOrganizer
         System.out.println();
     }
     
+    /**
+     * Add a track file to the collection.
+     * @param filename The file name of the track to be added.
+     */
+    public void addFile(String filename)
+    {
+        tracks.add(new Track(filename));
+    }
+    
+    /**
+     * Add a track to the collection.
+     * @param track The track to be added.
+     */
+    public void addTrack(Track track)
+    {

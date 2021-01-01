@@ -46,3 +46,22 @@ public class MusicOrganizer
      */
     public void addTrack(Track track)
     {
+        tracks.add(track);
+    }
+    
+    /**
+     * Play a track in the collection.
+     * @param index The index of the track to be played.
+     */
+    public void playTrack(int index)
+    {
+        if(indexValid(index)) {
+            Track track = tracks.get(index);
+            player.startPlaying(track.getFilename());
+            System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
+        }
+    }
+    
+    /**
+     * Return the number of tracks in the collection.
+     * @return The number of tracks in the collection.

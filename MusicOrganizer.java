@@ -65,3 +65,22 @@ public class MusicOrganizer
     /**
      * Return the number of tracks in the collection.
      * @return The number of tracks in the collection.
+     */
+    public int getNumberOfTracks()
+    {
+        return tracks.size();
+    }
+    
+    /**
+     * List a track from the collection.
+     * @param index The index of the track to be listed.
+     */
+    public void listTrack(int index)
+    {
+        System.out.print("Track " + index + ": ");
+        Track track = tracks.get(index);
+        System.out.println(track.getDetails());
+    }
+    
+    /**
+     * Show a list of all the tracks in the collection.

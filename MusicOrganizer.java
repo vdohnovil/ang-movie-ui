@@ -84,3 +84,19 @@ public class MusicOrganizer
     
     /**
      * Show a list of all the tracks in the collection.
+     */
+    public void listAllTracks()
+    {
+        System.out.println("Track listing: ");
+
+        for(Track track : tracks) {
+            System.out.println(track.getDetails());
+        }
+        System.out.println();
+    }
+    
+    /**
+     * List all tracks by the given artist.
+     * @param artist The artist's name.
+     */
+    public void listByArtist(String artist)

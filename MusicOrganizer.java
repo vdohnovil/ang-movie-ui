@@ -100,3 +100,24 @@ public class MusicOrganizer
      * @param artist The artist's name.
      */
     public void listByArtist(String artist)
+    {
+        for(Track track : tracks) {
+            if(track.getArtist().contains(artist)) {
+                System.out.println(track.getDetails());
+            }
+        }
+    }
+    
+    /**
+     * Remove a track from the collection.
+     * @param index The index of the track to be removed.
+     */
+    public void removeTrack(int index)
+    {
+        if(indexValid(index)) {
+            tracks.remove(index);
+        }
+    }
+    
+    /**
+     * Play the first track in the collection, if there is one.

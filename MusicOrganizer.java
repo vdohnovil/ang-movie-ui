@@ -121,3 +121,17 @@ public class MusicOrganizer
     
     /**
      * Play the first track in the collection, if there is one.
+     */
+    public void playFirst()
+    {
+        if(tracks.size() > 0) {
+            player.startPlaying(tracks.get(0).getFilename());
+        }
+    }
+    
+    public void playRandomTrack()
+    {
+        if(tracks.size() > 0) {
+            Random rSong = new Random();
+            int rTrack = rSong.nextInt(tracks.size());
+            player.startPlaying(tracks.get(rTrack).getFilename());

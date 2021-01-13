@@ -148,3 +148,12 @@ public class MusicOrganizer
                 songsToBePlayed.remove(0);
             }while(!tracks.isEmpty());
         }
+    }
+    
+    /**
+     * Stop the player.
+     */
+    public void stopPlaying()
+    {
+        player.stop();
+    }

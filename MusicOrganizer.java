@@ -135,3 +135,16 @@ public class MusicOrganizer
             Random rSong = new Random();
             int rTrack = rSong.nextInt(tracks.size());
             player.startPlaying(tracks.get(rTrack).getFilename());
+        }
+    }
+    
+    public void shuffleTracks()
+    {
+        if(tracks.size() > 0) {
+            ArrayList<Track> songsToBePlayed = new ArrayList<Track>(tracks);
+            Collections.shuffle(songsToBePlayed);
+            do{
+                player.startPlaying(songsToBePlayed.get(0).getFilename());
+                songsToBePlayed.remove(0);
+            }while(!tracks.isEmpty());
+        }

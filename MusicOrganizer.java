@@ -179,3 +179,18 @@ public class MusicOrganizer
             valid = false;
         }
         else {
+            valid = true;
+        }
+        return valid;
+    }
+    
+    private void readLibrary(String folderName)
+    {
+        ArrayList<Track> tempTracks = reader.readTracks(folderName, ".mp3");
+
+        // Put all thetracks into the organizer.
+        for(Track track : tempTracks) {
+            addTrack(track);
+        }
+    }
+}

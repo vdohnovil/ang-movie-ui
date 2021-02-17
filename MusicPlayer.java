@@ -56,3 +56,22 @@ public class MusicPlayer
     {
         try {
             setupPlayer(filename);
+            Thread playerThread = new Thread() {
+                public void run()
+                {
+                    try {
+                        player.play(5000);
+                    }
+                    catch(JavaLayerException e) {
+                        reportProblem(filename);
+                    }
+                    finally {
+                        killPlayer();
+                    }
+                }
+            };
+            playerThread.start();
+        }
+        catch (Exception ex) {
+            reportProblem(filename);
+        }

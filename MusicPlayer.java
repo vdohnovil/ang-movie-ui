@@ -86,3 +86,16 @@ public class MusicPlayer
      * Set up the player ready to play the given file.
      * @param filename The name of the file to play.
      */
+    private void setupPlayer(String filename)
+    {
+        try {
+            InputStream is = getInputStream(filename);
+            player = new AdvancedPlayer(is, createAudioDevice());
+        }
+        catch (IOException e) {
+            reportProblem(filename);
+            killPlayer();
+        }
+        catch(JavaLayerException e) {
+            reportProblem(filename);
+            killPlayer();

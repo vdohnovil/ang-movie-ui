@@ -75,3 +75,14 @@ public class MusicPlayer
         catch (Exception ex) {
             reportProblem(filename);
         }
+    }
+    
+    public void stop()
+    {
+        killPlayer();
+    }
+    
+    /**
+     * Set up the player ready to play the given file.
+     * @param filename The name of the file to play.
+     */

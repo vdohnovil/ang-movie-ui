@@ -99,3 +99,18 @@ public class MusicPlayer
         catch(JavaLayerException e) {
             reportProblem(filename);
             killPlayer();
+        }
+    }
+
+    /**
+     * Return an InputStream for the given file.
+     * @param filename The file to be opened.
+     * @throws IOException If the file cannot be opened.
+     * @return An input stream for the file.
+     */
+    private InputStream getInputStream(String filename)
+        throws IOException
+    {
+        return new BufferedInputStream(
+                    new FileInputStream(filename));
+    }

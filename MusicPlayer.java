@@ -114,3 +114,20 @@ public class MusicPlayer
         return new BufferedInputStream(
                     new FileInputStream(filename));
     }
+
+    /**
+     * Create an audio device.
+     * @throws JavaLayerException if the device cannot be created.
+     * @return An audio device.
+     */
+    private AudioDevice createAudioDevice()
+        throws JavaLayerException
+    {
+        return FactoryRegistry.systemRegistry().createAudioDevice();
+    }
+
+    /**
+     * Terminate the player, if there is one.
+     */
+    private void killPlayer()
+    {

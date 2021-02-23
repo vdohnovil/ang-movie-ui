@@ -131,3 +131,16 @@ public class MusicPlayer
      */
     private void killPlayer()
     {
+        synchronized(this) {
+            if(player != null) {
+                player.stop();
+                player = null;
+            }
+        }
+    }
+    
+    /**
+     * Report a problem playing the given file.
+     * @param filename The file being played.
+     */
+    private void reportProblem(String filename)

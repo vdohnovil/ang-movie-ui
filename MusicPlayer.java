@@ -144,3 +144,8 @@ public class MusicPlayer
      * @param filename The file being played.
      */
     private void reportProblem(String filename)
+    {
+        System.out.println("There was a problem playing: " + filename);
+    }
+
+}

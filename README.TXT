@@ -1,1 +1,1 @@
-Project: musi
+Project: music-organizer. 

@@ -1,1 +1,2 @@
-Project: music-organizer. A project to collect au
+Project: music-organizer. A project to collect audio files.
+Authors: 

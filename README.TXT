@@ -1,4 +1,6 @@
 Project: music-organizer. A project to collect audio files.
 Authors: David J. Barnes and Michael Kölling
 
-This project is part of the material for th
+This project is part of the material for the book
+
+   Objects 

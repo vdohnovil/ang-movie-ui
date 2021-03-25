@@ -8,4 +8,6 @@ This project is part of the material for the book
    David J. Barnes and Michael Kölling
    Pearson Education, 2016
 
-It is discussed in chap
+It is discussed in chapter 4.
+
+To start

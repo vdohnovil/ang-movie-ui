@@ -12,4 +12,5 @@ It is discussed in chapter 4.
 
 To start:
 
-Create a Builder object and then call its getCollec
+Create a Builder object and then call its getCollection method.
+Use t

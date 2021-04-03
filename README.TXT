@@ -13,4 +13,5 @@ It is discussed in chapter 4.
 To start:
 
 Create a Builder object and then call its getCollection method.
-Use the Get button from the result window to p
+Use the Get button from the result window to place the
+MusicColl

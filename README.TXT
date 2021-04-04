@@ -14,4 +14,4 @@ To start:
 
 Create a Builder object and then call its getCollection method.
 Use the Get button from the result window to place the
-MusicColl
+MusicCollection object on 

@@ -1,2 +1,3 @@
 /**
- * Store the details of a music
+ * Store the details of a music track,
+ * such a

@@ -1,3 +1,3 @@
 /**
  * Store the details of a music track,
- * such as the artist
+ * such as the artist, title, and file na

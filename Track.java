@@ -7,4 +7,5 @@
  */
 public class Track
 {
-   
+    // The artist.
+ 

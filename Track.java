@@ -8,4 +8,4 @@
 public class Track
 {
     // The artist.
- 
+    private String artist;

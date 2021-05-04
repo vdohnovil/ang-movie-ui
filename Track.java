@@ -12,4 +12,5 @@ public class Track
     // The track's title.
     private String title;
     // Where the track is stored.
-    private String f
+    private String filename;
+  

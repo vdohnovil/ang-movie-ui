@@ -16,4 +16,4 @@ public class Track
     
     /**
      * Constructor for objects of class Track.
-    
+     * @param artist

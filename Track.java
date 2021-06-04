@@ -22,4 +22,4 @@ public class Track
      */
     public Track(String artist, String title, String filename)
     {
-  
+        setDet

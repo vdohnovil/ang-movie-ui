@@ -24,4 +24,5 @@ public class Track
     {
         setDetails(artist, title, filename);
     }
-   
+    
+    /**

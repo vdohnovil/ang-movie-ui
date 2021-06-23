@@ -31,4 +31,4 @@ public class Track
      * decoded to extract artist and title details.
      * @param filename The track file. 
      */
-    pu
+    public Track(St

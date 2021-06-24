@@ -32,3 +32,5 @@ public class Track
      * @param filename The track file. 
      */
     public Track(String filename)
+    {
+        setDeta

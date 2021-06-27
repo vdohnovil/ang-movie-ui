@@ -34,4 +34,6 @@ public class Track
     public Track(String filename)
     {
         setDetails("unknown", "unknown", filename);
-  
+    }
+    
+    /*

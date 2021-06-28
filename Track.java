@@ -36,4 +36,5 @@ public class Track
         setDetails("unknown", "unknown", filename);
     }
     
-    /*
+    /**
+     * Return 

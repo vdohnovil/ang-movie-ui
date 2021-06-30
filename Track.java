@@ -39,4 +39,5 @@ public class Track
     /**
      * Return the artist.
      * @return The artist.
-     
+     */
+    public 

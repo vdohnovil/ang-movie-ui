@@ -42,4 +42,5 @@ public class Track
      */
     public String getArtist()
     {
-        retu
+        return artist;
+  

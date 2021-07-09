@@ -41,3 +41,5 @@ public class Track
      * @return The artist.
      */
     public String getArtist()
+    {
+        retu

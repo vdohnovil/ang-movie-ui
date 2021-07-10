@@ -43,4 +43,6 @@ public class Track
     public String getArtist()
     {
         return artist;
-  
+    }
+    
+    /**

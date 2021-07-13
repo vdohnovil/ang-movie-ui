@@ -49,3 +49,4 @@ public class Track
      * Return the title.
      * @return The title.
      */
+    public String getTit

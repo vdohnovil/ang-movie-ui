@@ -47,4 +47,5 @@ public class Track
     
     /**
      * Return the title.
-     * @retur
+     * @return The title.
+     */

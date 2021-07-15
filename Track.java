@@ -49,4 +49,6 @@ public class Track
      * Return the title.
      * @return The title.
      */
-    public String getTit
+    public String getTitle()
+    {
+        r

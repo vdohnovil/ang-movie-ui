@@ -51,4 +51,4 @@ public class Track
      */
     public String getTitle()
     {
-        r
+        return title;

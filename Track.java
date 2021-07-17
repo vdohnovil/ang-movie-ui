@@ -52,3 +52,6 @@ public class Track
     public String getTitle()
     {
         return title;
+    }
+    
+    /

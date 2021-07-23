@@ -58,4 +58,5 @@ public class Track
      * Return the file name.
      * @return The file name.
      */
-    public Strin
+    public String getFilename()
+   

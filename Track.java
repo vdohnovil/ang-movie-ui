@@ -64,4 +64,4 @@ public class Track
     }
         
     /**
-     * Return details of the tr
+     * Return details of the track: artist, t

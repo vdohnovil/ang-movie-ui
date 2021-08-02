@@ -65,4 +65,6 @@ public class Track
         
     /**
      * Return details of the track: artist, title and file name.
-     * @return The track's 
+     * @return The track's details.
+     */
+   

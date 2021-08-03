@@ -67,4 +67,4 @@ public class Track
      * Return details of the track: artist, title and file name.
      * @return The track's details.
      */
-   
+    public String getDeta

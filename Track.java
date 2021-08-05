@@ -69,4 +69,4 @@ public class Track
      */
     public String getDetails()
     {
-      
+        return artist + ": " +

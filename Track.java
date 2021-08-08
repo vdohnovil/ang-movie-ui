@@ -69,4 +69,6 @@ public class Track
      */
     public String getDetails()
     {
-        return artist + ": " + title + "  (file: " + file
+        return artist + ": " + title + "  (file: " + filename + ")";
+    }
+ 

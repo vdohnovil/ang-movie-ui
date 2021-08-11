@@ -73,4 +73,5 @@ public class Track
     }
     
     /**
-     * Set details of the t
+     * Set details of the track.
+     

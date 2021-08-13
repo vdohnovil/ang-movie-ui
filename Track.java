@@ -74,4 +74,5 @@ public class Track
     
     /**
      * Set details of the track.
-     * @param artist The tra
+     * @param artist The track's artist.
+     * @p

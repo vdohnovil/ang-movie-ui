@@ -78,4 +78,4 @@ public class Track
      * @param title The track's title.
      * @param filename The track file. 
      */
-    private void setDetails(String artist, String 
+    private void setDetails(String artist, String title, String 

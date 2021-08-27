@@ -80,4 +80,4 @@ public class Track
      */
     private void setDetails(String artist, String title, String filename)
     {
-        this.
+        this.artist = artist

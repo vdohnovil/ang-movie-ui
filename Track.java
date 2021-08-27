@@ -79,4 +79,5 @@ public class Track
      * @param filename The track file. 
      */
     private void setDetails(String artist, String title, String filename)
-   
+    {
+        this.

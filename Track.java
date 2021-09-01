@@ -82,4 +82,5 @@ public class Track
     {
         this.artist = artist;
         this.title = title;
-        this.file
+        this.filename = filename;
+ 

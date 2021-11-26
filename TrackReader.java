@@ -6,4 +6,4 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 /**
- * A helper class for our music applicati
+ * A helper class for our music application. This class 

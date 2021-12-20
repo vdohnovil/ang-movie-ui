@@ -7,4 +7,4 @@ import java.util.stream.Collectors;
 
 /**
  * A helper class for our music application. This class can read files from the file system
- * from a gi
+ * from a given fold

@@ -7,4 +7,4 @@ import java.util.stream.Collectors;
 
 /**
  * A helper class for our music application. This class can read files from the file system
- * from a given folder with a specified suffix. It will interpret the file na
+ * from a given folder with a specified suffix. It will interpret the file name as artist/

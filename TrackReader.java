@@ -10,4 +10,4 @@ import java.util.stream.Collectors;
  * from a given folder with a specified suffix. It will interpret the file name as artist/
  * track title information.
  * 
- * It is expect
+ * It is expected that file nam

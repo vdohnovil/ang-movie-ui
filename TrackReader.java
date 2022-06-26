@@ -11,4 +11,4 @@ import java.util.stream.Collectors;
  * track title information.
  * 
  * It is expected that file names of music tracks follow a standard format of artist name
- * and track name, separated by
+ * and track name, separated by a dash. For examp

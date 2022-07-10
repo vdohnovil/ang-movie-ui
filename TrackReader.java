@@ -12,3 +12,5 @@ import java.util.stream.Collectors;
  * 
  * It is expected that file names of music tracks follow a standard format of artist name
  * and track name, separated by a dash. For example: TheBeatles-HereComesTheSun.mp3
+ * 
+ * @autho

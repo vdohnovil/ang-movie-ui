@@ -19,4 +19,4 @@ import java.util.stream.Collectors;
 public class TrackReader
 {
     /**
-     * Create the tr
+     * Create the track reader, ready t

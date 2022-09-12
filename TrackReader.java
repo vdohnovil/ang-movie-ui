@@ -21,4 +21,6 @@ public class TrackReader
     /**
      * Create the track reader, ready to read tracks from the music library folder.
      */
-    public TrackReader(
+    public TrackReader()
+    {
+        

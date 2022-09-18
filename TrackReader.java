@@ -23,4 +23,5 @@ public class TrackReader
      */
     public TrackReader()
     {
-        // Nothing to
+        // Nothing to do here.
+    

@@ -28,4 +28,5 @@ public class TrackReader
     
     /**
      * Read music files from the given library folder
-     * wit
+     * with the given suffix.
+   

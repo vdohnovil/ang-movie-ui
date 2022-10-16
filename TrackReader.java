@@ -29,4 +29,4 @@ public class TrackReader
     /**
      * Read music files from the given library folder
      * with the given suffix.
-     * @param folder The folder to
+     * @param folder The folder to look for files

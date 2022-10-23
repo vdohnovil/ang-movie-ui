@@ -31,4 +31,5 @@ public class TrackReader
      * with the given suffix.
      * @param folder The folder to look for files.
      * @param suffix The suffix of the audio type.
-    
+     */
+    public ArrayL

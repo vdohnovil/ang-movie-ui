@@ -32,4 +32,4 @@ public class TrackReader
      * @param folder The folder to look for files.
      * @param suffix The suffix of the audio type.
      */
-    public ArrayList<Track> readTracks(Str
+    public ArrayList<Track> readTracks(String folder, Strin

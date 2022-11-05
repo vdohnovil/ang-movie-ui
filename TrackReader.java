@@ -34,4 +34,4 @@ public class TrackReader
      */
     public ArrayList<Track> readTracks(String folder, String suffix)
     {
-        File audioFolder = n
+        File audioFolder = new File(folder);

@@ -35,4 +35,4 @@ public class TrackReader
     public ArrayList<Track> readTracks(String folder, String suffix)
     {
         File audioFolder = new File(folder);
-        File[] audioFiles = audioFolder.listFil
+        File[] audioFiles = audioFolder.listFiles((dir, name)

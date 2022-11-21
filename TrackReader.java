@@ -36,4 +36,5 @@ public class TrackReader
     {
         File audioFolder = new File(folder);
         File[] audioFiles = audioFolder.listFiles((dir, name) -> 
-                    name.toLowerCase().en
+                    name.toLowerCase().endsWith(suffix));
+   

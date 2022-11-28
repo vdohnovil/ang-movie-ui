@@ -38,4 +38,5 @@ public class TrackReader
         File[] audioFiles = audioFolder.listFiles((dir, name) -> 
                     name.toLowerCase().endsWith(suffix));
         
-        // Put all the matching files into the
+        // Put all the matching files into the organizer.
+       

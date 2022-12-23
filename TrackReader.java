@@ -41,4 +41,4 @@ public class TrackReader
         // Put all the matching files into the organizer.
         ArrayList<Track> tracks = 
             Arrays.stream(audioFiles).
-                   map(file -> decode
+                   map(file -> decodeDetails(file

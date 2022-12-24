@@ -42,4 +42,4 @@ public class TrackReader
         ArrayList<Track> tracks = 
             Arrays.stream(audioFiles).
                    map(file -> decodeDetails(file)).
-                   colle
+                   collect(Collectors.toCol

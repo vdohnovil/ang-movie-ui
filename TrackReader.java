@@ -42,4 +42,5 @@ public class TrackReader
         ArrayList<Track> tracks = 
             Arrays.stream(audioFiles).
                    map(file -> decodeDetails(file)).
-                   collect(Collectors.toCollection(ArrayList::n
+                   collect(Collectors.toCollection(ArrayList::new));
+  

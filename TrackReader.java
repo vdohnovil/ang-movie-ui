@@ -47,4 +47,5 @@ public class TrackReader
     }
 
     /**
-     * Try to decode details of the artist and th
+     * Try to decode details of the artist and the title
+     * from

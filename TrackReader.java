@@ -47,4 +47,4 @@ public class TrackReader
     }
 
     /**
-     * Try to deco
+     * Try to decode details of the 

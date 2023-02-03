@@ -49,4 +49,5 @@ public class TrackReader
     /**
      * Try to decode details of the artist and the title
      * from the file name.
-     * It is assumed that the details a
+     * It is assumed that the details are in the form:
+    

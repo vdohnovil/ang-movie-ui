@@ -51,4 +51,5 @@ public class TrackReader
      * from the file name.
      * It is assumed that the details are in the form:
      *     artist-title.mp3
-     * @param file The track f
+     * @param file The track file.
+     * @return 

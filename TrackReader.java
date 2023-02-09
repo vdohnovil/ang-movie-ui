@@ -52,4 +52,4 @@ public class TrackReader
      * It is assumed that the details are in the form:
      *     artist-title.mp3
      * @param file The track file.
-     * @return A Track con
+     * @return A Track containing the d

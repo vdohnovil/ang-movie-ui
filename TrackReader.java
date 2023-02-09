@@ -54,4 +54,4 @@ public class TrackReader
      * @param file The track file.
      * @return A Track containing the details.
      */
- 
+    private Track deco

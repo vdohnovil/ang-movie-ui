@@ -57,4 +57,5 @@ public class TrackReader
     private Track decodeDetails(File file)
     {
         // The information needed.
-        String artist 
+        String artist = "unknown";
+     

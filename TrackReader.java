@@ -56,4 +56,5 @@ public class TrackReader
      */
     private Track decodeDetails(File file)
     {
-        // The information nee
+        // The information needed.
+        S

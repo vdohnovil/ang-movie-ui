@@ -58,4 +58,5 @@ public class TrackReader
     {
         // The information needed.
         String artist = "unknown";
-        String title
+        String title = "unknown";
+     

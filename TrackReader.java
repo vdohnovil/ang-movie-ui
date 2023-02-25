@@ -61,4 +61,4 @@ public class TrackReader
         String title = "unknown";
         String filename = file.getPath();
         
-        // Look for arti
+        // Look for artist and title 

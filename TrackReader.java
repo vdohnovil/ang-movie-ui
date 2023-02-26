@@ -62,4 +62,4 @@ public class TrackReader
         String filename = file.getPath();
         
         // Look for artist and title in the name of the file.
-        String
+        String details = file

@@ -63,4 +63,4 @@ public class TrackReader
         
         // Look for artist and title in the name of the file.
         String details = file.getName();
-        String[] par
+        String[] parts = details.s

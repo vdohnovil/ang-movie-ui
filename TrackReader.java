@@ -65,4 +65,5 @@ public class TrackReader
         String details = file.getName();
         String[] parts = details.split("-");
         
-        if(parts.len
+        if(parts.length == 2) {
+        

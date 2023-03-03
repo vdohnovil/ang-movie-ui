@@ -66,4 +66,4 @@ public class TrackReader
         String[] parts = details.split("-");
         
         if(parts.length == 2) {
-        
+            artist = parts

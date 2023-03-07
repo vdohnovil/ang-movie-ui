@@ -67,4 +67,5 @@ public class TrackReader
         
         if(parts.length == 2) {
             artist = parts[0];
-            String titlePart = pa
+            String titlePart = parts[1];
+       

@@ -68,4 +68,4 @@ public class TrackReader
         if(parts.length == 2) {
             artist = parts[0];
             String titlePart = parts[1];
-            // Remove a fil
+            // Remove a file-type suffix.

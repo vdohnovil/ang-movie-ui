@@ -69,4 +69,5 @@ public class TrackReader
             artist = parts[0];
             String titlePart = parts[1];
             // Remove a file-type suffix.
-            parts = titlePart.split("
+            parts = titlePart.split("\\.");
+      

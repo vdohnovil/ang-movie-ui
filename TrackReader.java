@@ -70,4 +70,5 @@ public class TrackReader
             String titlePart = parts[1];
             // Remove a file-type suffix.
             parts = titlePart.split("\\.");
-            if(parts.length >=
+            if(parts.length >= 1) {
+    

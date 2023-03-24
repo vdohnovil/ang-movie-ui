@@ -74,4 +74,5 @@ public class TrackReader
                 title = parts[0];
             }
             else {
-                title = titl
+                title = titlePart;
+         

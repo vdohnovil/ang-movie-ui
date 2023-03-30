@@ -77,4 +77,4 @@ public class TrackReader
                 title = titlePart;
             }
         }
-        return ne
+        return new Track(artist

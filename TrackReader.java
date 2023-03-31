@@ -77,4 +77,4 @@ public class TrackReader
                 title = titlePart;
             }
         }
-        return new Track(artist
+        return new Track(artist, title, fil

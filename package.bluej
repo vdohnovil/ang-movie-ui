@@ -1,3 +1,26 @@
 
 #BlueJ package file
 dependency1.from=TrackReader
+dependency1.to=Track
+dependency1.type=UsesDependency
+dependency2.from=MusicOrganizer
+dependency2.to=Track
+dependency2.type=UsesDependency
+dependency3.from=MusicOrganizer
+dependency3.to=MusicPlayer
+dependency3.type=UsesDependency
+dependency4.from=MusicOrganizer
+dependency4.to=TrackReader
+dependency4.type=UsesDependency
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+objectbench.height=101
+objectbench.width=776
+package.divider.horizontal=0.6
+package.divider.vertical=0.8007380073800738
+package.editor.height=427
+package.editor.width=674
+package.editor.x=742
+package.editor.y=228
